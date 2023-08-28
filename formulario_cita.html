@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda Tu Cita</title>
+</head>
+<body>
+    <h1>Agenda tu Cita</h1>
+    <form action="procesar_formulario.php" method="post"> 
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre">
+        <br><br>
+        
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" name="apellidos">
+        <br><br>
+        
+        <label for="edad">Edad:</label>
+        <input type="number" min="18" max="100" name="edad">
+        <br><br>
+        
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" name="telefono" maxlength="10">
+        <br><br>
+        
+        <label for="fecha">Fecha:</label>
+        <input type="date" name="fecha">
+        <br><br>
+        
+        <label for="hora">Hora:</label>
+        <input type="time" name="hora">
+        <br><br>
+
+        <label for="tipoCita">Tipo de cita:</label>
+        <select id="tipoCita" name="tipoCita" required>
+            <option value="diagnostico">Diagnóstico</option>
+            <option value="limpieza">Limpieza</option>
+            <option value="ortodoncia">Ortodoncia</option>
+            <option value="visitaTrimestral">Visita Trimestral</option>
+        </select>
+        <br><br>
+        
+        <label for="observaciones">Observaciones:</label>
+        <textarea id="observaciones" name="observaciones" rows="4" cols="50"></textarea>
+        <br><br>
+        
+        <input type="submit" value="Enviar">
+      </form>
+</body>
+</html>
