@@ -1,6 +1,6 @@
-#Tipos de Campos de Entrada en Formularios HTML:
-##Información sobre tipo y uso de inputs para formularios (unos vistos en clase y otros investigados)
-1. Texto:
+## Tipos de Campos de Entrada en Formularios HTML:
+### Información sobre tipo y uso de inputs para formularios (unos vistos en clase y otros investigados)
+`1. Texto:
    <!-- Campo para ingresar texto -->
    <input type="text" name="nombre" placeholder="Nombre" required>
 
@@ -59,4 +59,4 @@
 
 14. Restablecer:
     <!-- Botón para restablecer el formulario -->
-    <input type="reset" value="Restablecer">
+    <input type="reset" value="Restablecer">`
